@@ -1,6 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import {projects} from "../projects/data";
+import {projects} from "../resources/data";
 
 
 

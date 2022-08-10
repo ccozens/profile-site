@@ -1,4 +1,41 @@
+// quotes
+export const quotes = [
+  ["The opportunity to do another good day's work will come again tomorrow, even if you go home at a reasonable time.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["Very few people have any idea what they're doing.", "John Cleese"],
+  ["A fractured hour isn't really an hour - it's a mess of minutes.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["effective > productive", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["A great work ethic...is about doing what you say you're going to do, putting in a fair day's work, respecting the work, respecting the customers, respecting coworkers, not wasting time, not creating unnecessary work for other people, not being a bottleneck. Work ethic is fundamentally about being a good person that other people can count on and enjoy working with.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["A great work ethic...is fundamentally about being a good person that other people can count on and enjoy working with.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"
+  ],
+  ["The opportunity to do another good day's work will come again tomorrow, even if you go home at a reasonable time.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["There's a fountain of productivity and happiness in working in a stable crew", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["Most of us find that communicating our thoughts is a supremely enjoyable learning experience", "James W Pennebaker"],
+  ["'Doing nothing isn't an option'. Oh yes it is. And it's often the right one.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["Change makes things worse all the time. It's easier to f*ck something up that's working than it is to genuinely improve it.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["[don't]...be trapped by things that used to work well but no longer do", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["[best practices]...are like training wheels. When you don't know how to keep your balance or how fast to pedal, they can be helpful to get you going. But every best practice should come with a reminder to reconsider.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["...every best practice should come with a reminder to reconsider.", "It Doesn't Have to be Crazy at Work (Fried and Hansson)"],
+  ["We over-indexed on the 'whole rugged individualism' thing...we forgot that it's really about the team.", "Simon Sinek"],
+  ["Confident humility is the confidence in a leader's ability to make the right decision while acknowledging that they need others to do it right.", "Vinita Bansal"],
+  ["Don't confuse humility with meekness. Humility is being open to the ideas of others", "Bob Gaylor, retired Chief Master Sergeant of US Air Force"],
+  ["The product I'm most proud of is Apple and the team I built at Apple", "Steve Jobs"],
+  ["I’m as proud of many of the things we haven’t done as the things we have done. Innovation is saying no to a thousand things", "Steve Jobs"],
+  // ["", ""],
+]
 
+
+// skills
+const driveURL = 'https://drive.google.com/uc?export=view&id=';
+
+export const skills = [
+  {skill: 'Python', logo: driveURL+'19GRs_EQ0ZwXKZqaVmiiib4w1eapzUk3P'},
+  {skill: 'JavaScript', logo: driveURL+'1SqFT_i_02HDYn-jpHxGzjXF8fiJW8wYO'},
+  {skill: 'React', logo: driveURL+'1omENWj9pyEhi2AD8qfafqvUFvdecRelj'},
+  {skill: 'Tailwind', logo: driveURL+'1T3C0qNq0dakEdfDQ_i_4uLTsLoKrD9Zh'}
+]
+
+
+// to remove
 export const projects = [
   {
     title: "React Reserve",
@@ -34,15 +71,7 @@ export const projects = [
   },
 ];
 
-const driveURL = 'https://drive.google.com/uc?export=view&id=';
 
-
-export const skills = [
-  {skill: 'Python', logo: driveURL+'19GRs_EQ0ZwXKZqaVmiiib4w1eapzUk3P'},
-  {skill: 'JavaScript', logo: driveURL+'1SqFT_i_02HDYn-jpHxGzjXF8fiJW8wYO'},
-  {skill: 'React', logo: driveURL+'1omENWj9pyEhi2AD8qfafqvUFvdecRelj'},
-  {skill: 'Tailwind', logo: driveURL+'1T3C0qNq0dakEdfDQ_i_4uLTsLoKrD9Zh'}
-]
 
 export const testimonials = [
   {
@@ -74,3 +103,5 @@ export const testimonials = [
     user: "Compare Them to the Real Thing",
     comment: "After your beta test is complete, make sure you hold on to your data so you can compare it with the real product reviews after launch. You may be surprised at how close they are!"
   }]
+
+
