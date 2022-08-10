@@ -34,11 +34,14 @@ export const projects = [
   },
 ];
 
+const driveURL = 'https://drive.google.com/uc?export=view&id=';
+
 
 export const skills = [
-  'Python',
-  'JavaScript',
-  'React'
+  {skill: 'Python', logo: driveURL+'19GRs_EQ0ZwXKZqaVmiiib4w1eapzUk3P'},
+  {skill: 'JavaScript', logo: driveURL+'1SqFT_i_02HDYn-jpHxGzjXF8fiJW8wYO'},
+  {skill: 'React', logo: driveURL+'1omENWj9pyEhi2AD8qfafqvUFvdecRelj'},
+  {skill: 'Tailwind', logo: driveURL+'1T3C0qNq0dakEdfDQ_i_4uLTsLoKrD9Zh'}
 ]
 
 export const testimonials = [
