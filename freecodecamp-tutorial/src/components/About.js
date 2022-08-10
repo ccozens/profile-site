@@ -1,6 +1,6 @@
 import React from "react";
 import { skills } from "../resources/data";
-import { aboutMeBlurb } from "../resources/aboutMeBlurb";
+
 
 
 export default function About() {
